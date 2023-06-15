@@ -1,13 +1,17 @@
 RANDOMIZE = True  # Cделать ли выполнение модулей рандомно, чтобы паттерны на аккаунтах не были схожи
 RUN_FOREVER = False
 
+import random
+SLEEP_TIME=random.randint(10,20)
+
+
 # -------------------------------------Модули--------------------------------#
 orbiter_bridging = False
 inch_swap = False
 bungee_bridge = False
-syncswap_swap = False
+syncswap_swap = True
 syncswap_liq = False
-spacefi_swap = False
+spacefi_swap = True
 spacefi_liq = False
 mute_swap = False
 mute_liq = False
